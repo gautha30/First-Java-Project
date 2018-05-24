@@ -18,7 +18,7 @@ public class Application {
         // SpringApplication.run(Application.class, args);
         configureApplication(new SpringApplicationBuilder()).run(args);
         log.info("MavenTestApp Application running...");
-        for(i=0;i<10;i++){
+        for(int i=0;i<10;i++){
         System.out.println("Hello world....."+i);
         }
     }
